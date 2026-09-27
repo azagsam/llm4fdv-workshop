@@ -36,6 +36,6 @@ Check the instructions you received by mail.
 
 **Interview coding** — an LLM as a coder for the 1,250 interviews about AI at work in [`Anthropic/AnthropicInterviewer`](https://huggingface.co/datasets/Anthropic/AnthropicInterviewer) (general workforce, creatives, scientists). Research question: do the three occupational groups differ in their attitude towards AI and in what worries them most?
 
-Steps: read the data, adapt the codebook, write the prompt and code one interview, code the whole sample, add a second coder from a different model family and measure agreement (Cohen's kappa), answer the substantive question (chi-square test), and prepare a 3-minute report.
+Steps: read the data, adapt the codebook, write the prompt and code one interview, code the whole sample, add a second coder from a different model family and measure agreement (Cohen's kappa), and answer the substantive question (chi-square test).
 
 No Python writing is needed — every `TODO` is a research decision (a prompt, a setting, a model). The notebook runs an open-weight model (Qwen2.5-3B-Instruct by default) locally, so no API key is needed and no interview text leaves your machine.
